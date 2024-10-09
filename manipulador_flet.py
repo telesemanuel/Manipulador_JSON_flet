@@ -11,7 +11,7 @@ class Pessoa:
     profissao: str
 
     def __del__(self):
-        print(f'Objeto {self.nome} de código {self.codigo} foi destruído')
+        return(f'Objeto {self.nome} de código {self.codigo} foi destruído')
 
 class Manipulador:
     def criar_arquivo(self, nome_arquivo):
